@@ -150,6 +150,18 @@ header .header-cases{
     display: none;
 }
 
+
+@media only screen and (min-width: 982px){
+    header .header-brand{
+        text-align: left;
+        padding: 0 20px 0 40px;
+        border-right: 3px solid #111;
+        float: left;
+        line-height: 32px;
+        margin: 31px;
+    }
+}
+
 /*index-banner*/
 
 .index-banner{
@@ -222,8 +234,8 @@ footer ul li a{
     padding: 40px 40px;
     width: calc(100% - 80px);
     color: #fff;
-    line-height: 30px;
-    font-size: 20px;
+    line-height: 43px;
+    font-size: 30px;
 }
 
 .footer-menu-case{
